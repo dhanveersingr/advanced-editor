@@ -1,52 +1,49 @@
-=== Advanced Editor ===
-Contributors: Dhanveersing
-Tags: classic editor, tinymce, gutenberg, editor, formatting
-Requires at least: 5.0
-Tested up to: 6.9
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+🚀 Advanced Editor: The Pro Classic WordPress Experience
 
-The ultimate production-grade Classic Editor extension for WordPress. Disables Gutenberg and unlocks the full hidden power of TinyMCE.
+Advanced Editor is a lightweight, open-source WordPress plugin for writers who prefer the speed of the Classic Editor over Gutenberg. This tool completely restores the classic writing experience while unlocking hidden professional features within TinyMCE.
 
-== Description ==
+🛠 Why use this instead of the standard Classic Editor?
 
-Advanced Editor is designed for professional publishers who require the speed and reliability of the Classic Editor combined with modern power features. 
+Most plugins just "disable" Gutenberg. Advanced Editor goes further by turning your WordPress dashboard into a production-grade writing environment with high-density toolbars and advanced HTML control.
 
-Unlike other plugins that merely add a few buttons, **Advanced Editor** entirely rewrites the editor's core configuration to provide a desktop-grade writing environment.
+    >Disable Gutenberg Everywhere: Instantly removes the Block Editor and Widget Blocks for a cleaner, faster UI.
 
-### Why Advanced Editor?
+    >3-Row High-Density Toolbar: Access every core TinyMCE plugin in a space-optimized layout designed for power users.
 
-*   **Total Gutenberg Disablement**: One-click removal of the Block Editor and Widget Blocks.
-*   **3 High-Density Toolbar Rows**: Every core TinyMCE plugin is unlocked and organized into a space-optimized layout.
-*   **Semantic Archetypes**: One-click formatting for News, Blogs, Wikis, and Product Reviews. Includes automatic Drop-Caps and Pros/Cons styling.
-*   **100% Self-Sufficient**: All assets (20+ TinyMCE plugins) are bundled locally. **Zero external CDN dependencies**, making it 100% offline-compatible and privacy-compliant.
-*   **HTML Preservation Engine**: Prevents WordPress from stripping Iframes, Spans, Divs, and Scripts during mode switching.
+    >Semantic Archetypes: Quick-format your content for Blogs, Wikis, or Product Reviews with built-in Drop-Caps and Pros/Cons styling.
 
-== Installation ==
+    >100% Privacy Focused & Offline Ready: All 20+ TinyMCE plugins are bundled locally. No external CDNs, no tracking, and it works perfectly in offline development environments.
 
-1. Upload the `advanced-editor` folder to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Navigate to **Posts > Add New** to experience the upgraded editor.
+    >Pro HTML Preservation: Stops WordPress from "cleaning" (deleting) your custom Iframes, Spans, Divs, or Scripts when you switch between Visual and Text modes.
 
-== Screenshots ==
+📥 Installation
 
-1. The high-density 3-row Classic Editor interface.
-2. Semantic Archetypes menu in the Formats dropdown.
-3. Advanced Table and Developer tools in action.
+    >Download the repository and move the advanced-editor folder into your /wp-content/plugins/ directory.
 
-== Frequently Asked Questions ==
+    >Activate the plugin through the Plugins menu in your WordPress Admin.
 
-= Does it work with the latest WordPress? =
-Yes, it is tested with WordPress 6.x and supports the latest TinyMCE 4 core.
+    >Start writing! Navigate to Posts > Add New to see your new high-powered editor.
 
-= Can I use this offline? =
-Absolutely. All editor scripts are bundled locally within the plugin folder.
+📸 Features at a glance
 
-== Changelog ==
+    >Power Interface: A compact, 3-row layout that puts every formatting tool at your fingertips.
 
-= 1.0.0 =
-* Initial release.
-* Added 3-row high-density layout.
-* Implemented Semantic Archetypes system.
-* Localized all TinyMCE assets for offline support.
+    >Custom Formats: A specialized "Formats" dropdown featuring semantic archetypes for professional publishing.
+
+    >Developer Tools: Includes advanced table controls and code-friendly formatting that stays exactly how you wrote it.
+
+❓ Common Questions
+
+Is it compatible with the latest WordPress?
+Yes. It is fully tested with WordPress 6.x and utilizes the latest TinyMCE 4 core.
+
+Does it require an internet connection?
+Nope. Unlike many other editor extensions, every script is hosted locally on your server, making it fast and privacy-compliant.
+
+📜 License & Credits
+
+    Author: Dhanveersing
+
+    License: GPLv2 or later (Open Source)
+
+    Status: Stable v1.0.0
