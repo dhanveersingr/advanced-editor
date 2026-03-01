@@ -1,0 +1,187 @@
+/**
+ * Advanced Editor - Custom Editor Styles
+ * This CSS is injected directly inside the TinyMCE iFrame to make writing 
+ * look less like code and more like actual article publishing.
+ */
+
+/* 1. Improved Typography & Spacing */
+body#tinymce.wp-editor {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    /* Better base size for writing */
+    line-height: 1.8;
+    color: #2c3338;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+/* 2. Better Visual Headings */
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #1d2327;
+}
+
+/* 3. Clearly Mark Unknown HTML blocks when "Visual Blocks" is off */
+body#tinymce.wp-editor iframe,
+body#tinymce.wp-editor embed,
+body#tinymce.wp-editor object {
+    display: block;
+    margin: 1.5rem auto;
+    border: 2px dashed #007cba;
+    background-color: #f0f6fc;
+    min-height: 150px;
+    min-width: 100%;
+}
+
+/* 4. Improve Blockquote Visibility */
+body#tinymce.wp-editor blockquote {
+    border-left: 4px solid #007cba;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #50575e;
+}
+
+/* 5. Improve pre/code blocks for developers */
+body#tinymce.wp-editor pre {
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    padding: 1.5rem;
+    border-radius: 4px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+/* 6. Highlighting Visual Blocks (when activated via TinyMCE button) */
+body#tinymce.wp-editor.mce-visualblocks div,
+body#tinymce.wp-editor.mce-visualblocks p,
+body#tinymce.wp-editor.mce-visualblocks ul,
+body#tinymce.wp-editor.mce-visualblocks ol,
+body#tinymce.wp-editor.mce-visualblocks table {
+    border: 1px dashed #c3c4c7;
+    margin: 4px;
+    padding: 4px;
+    background: #fdfdfd;
+}
+
+/* 7. ARCHETYPE STYLING (Semantic Visuals) */
+
+/* News Article */
+.nt2-news-h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 3px double #333;
+    padding-bottom: 10px;
+}
+
+.nt2-news-h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5rem;
+    color: #b91c1c;
+    border-left: 5px solid #b91c1c;
+    padding-left: 15px;
+}
+
+.nt2-news-p {
+    text-align: justify;
+    columns: 1;
+    orphans: 3;
+    widows: 3;
+}
+
+.nt2-news-quote {
+    border: none;
+    font-size: 1.4rem;
+    color: #b91c1c;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+/* Encyclopedia */
+.nt2-wiki-h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 0.25em;
+}
+
+.nt2-wiki-p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.nt2-wiki-sidebar {
+    float: right;
+    width: 250px;
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+/* Blog Post */
+.nt2-blog-h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1e40af;
+    border-bottom: 4px solid #dbeafe;
+}
+
+.nt2-blog-dropcap::first-letter {
+    font-size: 4rem;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+    color: #1e40af;
+    font-family: serif;
+}
+
+.nt2-blog-p {
+    font-family: 'Segoe UI', sans-serif;
+    color: #374151;
+    font-size: 18px;
+}
+
+/* Product Review */
+.nt2-rev-h1 {
+    background: #111827;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nt2-rev-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #111827;
+}
+
+.nt2-rev-pros {
+    color: #059669;
+    border: 2px solid #059669;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: '✓ ';
+}
+
+.nt2-rev-cons {
+    color: #dc2626;
+    border: 2px solid #dc2626;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: '✕ ';
+}
