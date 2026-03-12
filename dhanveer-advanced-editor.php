@@ -1,14 +1,13 @@
 <?php
 /**
-* Plugin Name: Advanced Editor
-* Description: The ultimate production-grade Classic Editor extension. Disables Gutenberg and unlocks the full power of
-TinyMCE with semantic archetypes.
-* Version: 1.0.0
-* Author: Dhanveersing
-* License: GPLv2 or later
-* License URI: https://www.gnu.org/licenses/gpl-2.0.html
-* Text Domain: advanced-editor
-*/
+ * Plugin Name: Dhanveer Advanced Editor
+ * Description: The ultimate production-grade Classic Editor extension. Disables Gutenberg and unlocks the full power of TinyMCE with semantic archetypes.
+ * Version: 1.0.0
+ * Author: Dhanveersing
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: dhanveer-advanced-editor
+ */
 
 // If this file is called directly, abort.
 if (!defined('ABSPATH')) {

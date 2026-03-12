@@ -1,4 +1,4 @@
-=== Advanced Editor ===
+=== Dhanveer Advanced Editor ===
 Contributors: Dhanveersing
 Tags: classic editor, tinymce, gutenberg, editor, formatting
 Requires at least: 5.0
